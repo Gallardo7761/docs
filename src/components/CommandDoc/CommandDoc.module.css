@@ -1,0 +1,49 @@
+.commandContainer {
+  padding: 1.5rem;
+  background: var(--ifm-background-color);
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  margin-bottom: 2rem;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.commandTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--ifm-color-content);
+  margin-bottom: 0.25rem;
+}
+
+.commandDescription {
+  font-size: 1rem;
+  color: var(--ifm-color-content-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.sectionTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin: 1rem 0 0.5rem;
+}
+
+.codeBlock {
+  font-size: 0.95rem;
+  font-family: var(--ifm-font-family-monospace);
+  background: var(--ifm-pre-background);
+  color: var(--ifm-pre-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  border: 1px solid var(--ifm-color-emphasis-100);
+}
+
+.warning {
+  font-size: 0.9rem;
+  color: var(--ifm-color-warning);
+  background-color: var(--ifm-color-warning-background);
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+}

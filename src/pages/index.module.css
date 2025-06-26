@@ -1,0 +1,52 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+.homeImg {
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  animation: hueCycle 2s infinite linear;
+  filter: hue-rotate(0deg);
+}
+
+@keyframes hueCycle {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

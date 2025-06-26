@@ -52,6 +52,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          routeBasePath: '/', // Serve the docs at the root URL
         },
         /*blog: {
           showReadingTime: true,

@@ -1,5 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './CraftRenderer.css';
 
 export default function CraftRenderer({ craft }) {
   switch (craft.name) {

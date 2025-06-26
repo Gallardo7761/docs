@@ -108,7 +108,7 @@ const config = {
             items: [
               {
                 label: 'MiarmaCraft',
-                to: '/docs/miarmacraft',
+                to: '/MiarmaCraft/intro',
               },
             ],
           },
@@ -127,7 +127,7 @@ const config = {
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: true,
-        respectPrefersColorScheme: true,
+        respectPrefersColorScheme: false,
       },
       prism: {
         theme: prismThemes.github,

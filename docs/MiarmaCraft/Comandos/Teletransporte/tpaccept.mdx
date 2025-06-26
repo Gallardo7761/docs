@@ -1,1 +1,13 @@
 # /tpaccept
+
+import CommandDoc from '@site/src/components/CommandDoc/CommandDoc';
+
+<CommandDoc
+  name="tpaccept"
+  description="Acepta una solicitud de teletransporte a un jugador. Si no especificas el jugador, se acepta la primera solicitud de/hacia ti en la cola."
+  usage="/tpaccept [jugador]"
+  examples={[
+    "/tpaccept Notch",
+    "/tpaccept"
+  ]}
+/>

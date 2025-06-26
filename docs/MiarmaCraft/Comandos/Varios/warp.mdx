@@ -1,1 +1,14 @@
 # /warp
+
+import CommandDoc from '@site/src/components/CommandDoc/CommandDoc';
+
+<CommandDoc
+  name="warp"
+  description="Mira, añade y elimina warps personales. No son warps tradicionales a los que puedes hacerte TP, sino una especie de marcadores que guardan coordenadas de sitios que puedan ser de tu interés."
+  usage="/warp [add|remove] <nombre>"
+  examples={[
+    "/warp",
+    "/warp add Cueva",
+    "/warp remove Cueva"
+  ]}
+/>
